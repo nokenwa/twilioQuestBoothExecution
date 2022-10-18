@@ -4,10 +4,9 @@ const client = twilio(process.env.TQ_TWILIO_ACCOUNT_SID,process.env.TQ_TWILIO_AU
 
 client.messages.create({
   from: process.env.TQ_WHATSAPP_NUMBER,
-  to: "whatsapp: " // TODO: which value do you need to add here?
-
-  // TODO: This code needs one more parameter to work...
-  // I wonder what those parameters are? Better check the docs:
+  to: "whatsapp:", // TODO: which properties do you need to add here?
+  body: 
+  // All parameters cann be found in the docs here:
   // https://www.twilio.com/docs/sms/api/message-resource
 
 }).then(message => {
