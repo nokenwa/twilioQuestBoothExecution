@@ -1,6 +1,6 @@
 {
   "title": "Count how many characters are in this string",
-  "description": "Count how many characters <strong>excluding spaces</strong> are in this string",
+  "description": "Count how many characters are in this string",
   "show_ide":true,
   "validation_fields": [
     {

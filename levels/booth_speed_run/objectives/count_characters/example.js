@@ -2,7 +2,3 @@
 
 const string =
   "PQXmxopteQuVqGYcfbPkjoAHSLDzaWIEXjIddaPHDzgoreVjZqfpkMVxXvAnKwSVjTFZOdTeqiiPTygx";
-
-console.log(
-  string.split("").filter((char) => char === "X" || char === "x").length
-);
