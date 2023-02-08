@@ -1,0 +1,19 @@
+{
+    "title": "Twilio Quest JavaScript Speed Run",
+    "description": "Complete JavaScript challenges to win prizes",
+    "questTitle": "Twilio Quest JavaScript Speed Run",
+    "questDescription": "Twilio Quest at the Booth! Win a piece of Swag",
+    "mission_icon": "mission_icon.png",
+    "is_mission": true,
+    "priority": 10,
+    "backgroundMusic": "hackertheme_104771b",
+    "backgroundEffect": {
+      "key": "sr",
+      "options": {}
+    },
+    "flavorTextOverrides": {
+      "bookshelf": "There's nothing like a good book."
+    },
+    "objectives": ["tutorial","swag_chest","string_length","reverse_string","count_characters","finish"]
+  }
+  

@@ -1,0 +1,17 @@
+
+{
+  "title": "Congratulations",
+  "description": "You've reached the end of the speed run.",
+  "validation_fields": [
+    {
+      "name": "email",
+      "type": "text",
+      "placeholder": "operator@twilio.com",
+      "label": "We will only use your email to contact you about the prize."
+    }
+  ],
+  "rewards": {
+    "xp": 0,
+    "items": ["3_hearts"]
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "title": "Tut Tut! Getting distracted ",
+  "description": "You're wasting valuable time",
+  "validation_fields": [],
+  "rewards": {
+    "xp": 0,
+    "items": ["3_hearts"]
+  }
+}
