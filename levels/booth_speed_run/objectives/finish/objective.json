@@ -1,0 +1,11 @@
+
+{
+  "title": "Congratulations",
+  "description": "You've reached the end of the speed run. Let's check your time",
+  "validation_fields": [
+  ],
+  "rewards": {
+    "xp": 0,
+    "items": ["3_hearts"]
+  }
+}

@@ -9,6 +9,9 @@ client.messages.create({
   // All parameters cann be found in the docs here:
   // https://www.twilio.com/docs/sms/api/message-resource
 
+  // PRIVACY NOTICE: WE WILL NEVER USE YOUR NUMBER FOR ANYTHING ELSE.
+  // WE WILL DELETE IT FROM OUR LOGS IN 30 MINUTES
+
 }).then(message => {
   console.log("Woohoo! Copy this message SID into the hacking UI:");
   console.log(`${message.sid}`);
