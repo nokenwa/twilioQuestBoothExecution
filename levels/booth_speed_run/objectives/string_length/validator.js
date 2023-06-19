@@ -5,7 +5,7 @@ module.exports = async function (helper) {
   if (!input) {
     return helper.fail(`Please count how many characters are in the string
      `);
-  } else if (input === "43") {
+  } else if (input === "42") {
     return helper.success(
       `You enter the correct answer needed to bypass the lasers. Soon after, the lasers
       retract and clear your path forward.`

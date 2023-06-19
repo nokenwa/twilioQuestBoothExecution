@@ -5,7 +5,7 @@ module.exports = async function (helper) {
 
   if (!input) {
     return helper.fail(`Please find the passcode in the code editor.`);
-  } else if (input.toLowerCase() === 'i love javascript'){
+  } else if (input.toLowerCase() === 'i love javascript' || input.toLowerCase() === 'i hate javascript'){
     return helper.success(
       `You enter the passcode needed to bypass the lasers. Soon after, the lasers
       retract and clear your path forward.`

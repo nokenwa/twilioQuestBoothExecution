@@ -12,8 +12,8 @@ module.exports = function(event, world) {
     console.log(event)
     console.log('Wiping Memory');
   
-    world.removeObjective('vr_mission_template','tutorial')
-    world.removeObjective('vr_mission_template', 'buy_number')
+    // world.removeObjective('vr_mission_template','tutorial')
+    // world.removeObjective('vr_mission_template', 'buy_number')
     world.removeObjective('vr_mission_template', 'send_message')
     world.removeObjective('vr_mission_template', 'make_phone_call')
     world.removeObjective('vr_mission_template', 'send_whatsapp')

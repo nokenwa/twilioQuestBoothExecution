@@ -1,3 +1,3 @@
-// TODO: What is the length of this string.
+// TODO: What is the length of this string (and the answer to life, the universe and everything)?
 
-const string = "Twilio makes sending and receiving SMS easy";
+const string = "Twilio makes sending & receiving SMS easy!";

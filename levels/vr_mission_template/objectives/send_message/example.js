@@ -4,9 +4,9 @@ const client = twilio(process.env.TQ_TWILIO_ACCOUNT_SID,process.env.TQ_TWILIO_AU
 
 client.messages.create({
   from: process.env.TQ_TWILIO_NUMBER,
-
-  // TODO: This code will need two more parameters to work...
-  // I wonder what those parameters are? Better check the docs:
+  to: "", // TODO: which properties do you need to add here?
+  body: 
+  // All parameters cann be found in the docs here:
   // https://www.twilio.com/docs/sms/api/message-resource
 
   // PRIVACY NOTICE: WE WILL NEVER USE YOUR NUMBER FOR ANYTHING ELSE.
